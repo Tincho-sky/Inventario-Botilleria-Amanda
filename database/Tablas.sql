@@ -1,4 +1,5 @@
 
+
 -- 1. Tabla USUARIO
 CREATE TABLE usuario (
     id_usuario SERIAL PRIMARY KEY,
@@ -53,3 +54,5 @@ CREATE TABLE movimiento_inventario (
     fecha_hora TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (id_producto) REFERENCES producto(id_producto)
 );
+
+alter table producto add column precio_venta integer NOT NULL

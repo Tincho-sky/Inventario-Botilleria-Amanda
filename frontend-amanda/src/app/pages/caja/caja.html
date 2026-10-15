@@ -1,0 +1,18 @@
+<div style="padding: 20px;">
+  <h2>Pantalla de Caja 🛒</h2>
+  <div style="margin-bottom: 15px; margin-top: 20px;">
+    <label style="display:block; font-weight:bold;">ID del Producto:</label>
+    <input type="number" #idProducto value="1" style="width: 100%; max-width: 300px; padding: 8px;">
+  </div>
+  <div style="margin-bottom: 20px;">
+    <label style="display:block; font-weight:bold;">Cantidad a vender:</label>
+    <input type="number" #cantidad value="2" style="width: 100%; max-width: 300px; padding: 8px;">
+  </div>
+  <button (click)="vender(idProducto.value, cantidad.value)" 
+          style="padding: 12px 24px; background: #28a745; color: white; font-weight: bold; border: none; border-radius: 5px; cursor:pointer;">
+    Confirmar Venta
+  </button>
+  <div style="margin-top: 20px; font-weight: bold;">
+    {{ mensajeSistema }}
+  </div>
+</div>

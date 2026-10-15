@@ -7,7 +7,7 @@ try:
         port="5432",
         database="botilleria_amanda",
         user="postgres",
-        password="TU_CONTRASEÑA_AQUI"  # <--- Reemplaza esto con tu clave
+        password="423Volei.423"  # <--- Reemplaza esto con tu clave
     )
     
     # 2. Crear un cursor (es el "vehículo" que lleva las consultas a la base de datos)

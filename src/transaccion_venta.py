@@ -8,7 +8,7 @@ def registrar_venta(id_producto, cantidad):
             port="5432",
             database="botilleria_amanda",
             user="postgres",
-            password="TU_CONTRASEÑA_AQUI" # Reemplaza con tu clave
+            password="423Volei.423" # Reemplaza con tu clave
         )
         cursor = conexion.cursor()
 
